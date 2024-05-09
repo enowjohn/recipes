@@ -40,3 +40,81 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40rem;
+}
+
+.container {
+  display: flex;
+  /* background-color: yellow; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.img-sec {
+  background-color: green;
+  display: flex;
+  width: 16rem;
+  height: 16rem;
+  border: none;
+  border-radius: 1rem;
+  gap: 5rem;
+
+}
+
+.dialog {
+  width: 14rem;
+  height: 25srem;
+  border: none;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: #fff;
+  position: fixed;
+  top: 0;
+   right: 20px;
+}
+
+.dialog-img {
+  width: 10rem;
+
+  /* background-color: blue; */
+}
+
+.addbtn {
+  background-color: red;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search-bar {
+  background-color: rgb(77, 77, 175);
+  display: flex;
+  border: 3px solid black;
+  border-radius: 2rem;
+  width: 25rem;
+  height: 3rem;
+  color: white;
+}
+
+.meals {
+  display: flex;
+  background-color: green;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
